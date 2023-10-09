@@ -23,11 +23,6 @@ if __name__ == "__main__":
         valid_path='./dataset/valid.dataset'
     )
 
-    device = "cuda:0" if torch.cuda.is_available() else "cpu"
-    print(device)
-    train_dataset, valid_dataset = train_dataset.to(device), valid_dataset.to(device)
-    model     = model.to(device)
-
     print('##########################################')
 
     
