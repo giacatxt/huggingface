@@ -6,7 +6,7 @@ import numpy as np
 from datasets import load_metric
 import os
 
-#os.environ["CUDA_VISIBLE_DEVICES"] = ""
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
 if __name__ == "__main__":
     # tokenizer = AutoTokenizer.from_pretrained("xlm-roberta-base")
